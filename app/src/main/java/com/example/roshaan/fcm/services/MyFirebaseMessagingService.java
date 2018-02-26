@@ -23,7 +23,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         //getting the title and the body
         String title = remoteMessage.getNotification().getTitle();
-        String body = remoteMessage.getNotification().getBody(); 
+        String body = remoteMessage.getNotification().getBody();
 
         NotificationsManager.getInstance(this).displayNotification(title,body);
     }
