@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FCM</string>
+
+    <array name="topics">
+        <item>notifications</item>
+        <item>promotional</item>
+    </array>
+
+</resources>
